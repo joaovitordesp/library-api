@@ -32,29 +32,28 @@
 
 ## :hammer: Funcionalidades do projeto
 
-LIVROS
-  GET- http://localhost:3000/livros
-  POST - http://localhost:3000/livros
-    {
+- LIVROS
+  - GET- http://localhost:3000/livros
+  - POST - http://localhost:3000/livros
+    - {
       "titulo": "Back-end JavaScript",
       "autor": "Johnna",
       "editora": "Casa do Code",
       "numeroPaginas": 230
+      }
+  - PUT- http://localhost:3000/livros/(DIGITAR O ID)
+  - DELETE -http://localhost:3000/livros/(DIGITAR O ID)
 
-    }
-  PUT- http://localhost:3000/livros/(DIGITAR O ID)
-  DELETE -http://localhost:3000/livros/(DIGITAR O ID)
 
-
-AUTORES
-  GET- http://localhost:3000/autores
-  POST- http://localhost:3000/autores
-    {
-    "nome": "Joao Vitor",
-    "nacionalidade":"brasileiro"
-    }
-  PUT- http://localhost:3000/autores/(DIGITAR O ID)
-  DELETE- http://localhost:3000/autores/(DIGITAR O ID)
+-AUTORES
+  - GET- http://localhost:3000/autores
+  - POST- http://localhost:3000/autores
+    - {
+       "nome": "Joao Vitor",
+       "nacionalidade":"brasileiro"
+      }
+  - PUT- http://localhost:3000/autores/(DIGITAR O ID)
+  - DELETE- http://localhost:3000/autores/(DIGITAR O ID)
 
 Buscas Livro Por editora
   http://localhost:3000/livros/busca?editora=Casa+do+Código
